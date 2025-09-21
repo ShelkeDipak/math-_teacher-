@@ -1,0 +1,103 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+body{
+          height: 20vw;
+          width: 100vw;
+          background-color: rgb(69, 75, 81);
+          align-items: center;
+          text-align: center;
+}
+h1{
+          margin-top: 50px;
+          font-size: 3vmax;
+          background: linear-gradient(to right, rgb(21, 232, 225),rgb(255, 225, 93),rgb(247, 0, 255));
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          border: black;
+          
+}
+button{
+          background-color: rgb(9, 255, 0);
+          border: none;
+          border: 1px solid rgb(69, 225, 17);
+          color: rgb(0, 0, 0);
+          height: 3vw;
+          width: 10vw;
+          font-weight: 500;
+          font-size: 2.5vw;
+          border-radius: 1rem;
+          text-align: center;  
+          margin-top: 20px; 
+          cursor: pointer;
+          transition: .2s; 
+          box-shadow:2px 2px 2px  black;
+}
+button:hover{
+          background-color: rgb(136, 248, 137);
+          opacity: 0.7;
+
+}
+.upload-img{
+          padding: 2vw;
+          margin-left: 26vw;
+          background-color: rgb(69, 75, 81);
+          width: 48vw;
+          border-radius: 0.5rem;
+}
+.inner-upload-img{
+          background-color:rgb(129, 153, 177);
+          width: 45vw;
+          height: 20vw;
+          border-radius: 1rem;
+          display: flex;
+          align-self: center;
+          justify-content: center;
+          flex-direction: column;
+          box-shadow:2px 2px 2px  rgba(0, 0, 0, 0.693);
+}
+.inner-upload-img:hover{
+          background-color:rgb(129, 153, 177);
+ }
+.inner-upload-img img{
+           height: 5vw;
+           margin-top: 1vw;
+}
+.inner-upload-img span {
+          margin-top: 1vw;
+}
+#image{
+          width: 100%;
+          height: 100%;
+          display: none;
+         border-radius: 1rem;
+}
+#loading{ 
+          margin-top:1vw;
+          height: 5vw;
+          width: 5vw;
+          filter: drop-shadow(2px 2px 10px black);
+          display: none;
+          margin-left: 47.5vw;                     
+}
+.output{
+          margin-top: 2vw;
+          margin-left: 15vw;
+          border-radius: 1rem;
+          width: 70vw;
+          height: 800px;
+          background-color:rgb(54, 63, 71);  
+          color: white;
+          font-weight: 500;
+          box-shadow: 2px 2px 10px black;
+          text-align: start;
+           padding: 20px;
+          display: none;
+          overflow: auto;
+}
+
+ 
